@@ -1,6 +1,7 @@
 <template>
   <div>
     我是一个组件
+    我在垃圾电脑上
   </div>
 </template>
 

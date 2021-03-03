@@ -1,6 +1,6 @@
 <template>
   <div>
-    我是一个组件
+    cinema
   </div>
 </template>
 

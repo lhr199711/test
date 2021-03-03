@@ -1,12 +1,19 @@
 <template>
   <div>
-      movie
+    <Head></Head>
+    movie
+    <Tabbar></Tabbar>
   </div>
 </template>
 
 <script>
-export default {
+import Tabbar from '@/components/tabbar/Tabbar'
 
+export default {
+  name : 'movie',
+  components : {
+    Tabbar
+  }
 }
 </script>
 

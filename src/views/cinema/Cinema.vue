@@ -1,13 +1,22 @@
 <template>
   <div>
+    <Head title="影院"></Head>
     cinema
+    <Tabbar></Tabbar>
   </div>
 </template>
 
 <script>
-export default {
 
+import Tabbar from '@/components/tabbar/Tabbar'
+
+export default {
+  name : 'Cinema',
+  components: {
+    Tabbar
+  }
 }
+
 </script>
 
 <style>
